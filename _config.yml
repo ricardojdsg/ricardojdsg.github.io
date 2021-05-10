@@ -35,7 +35,6 @@ theme: null
 plugins:
   - jekyll-feed
 
-
 defaults:
   -
     scope:
