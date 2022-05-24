@@ -28,12 +28,20 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: https://twitter.com/ricardojdsg
 github_username:  https://github.com/ricardojdsg
+linkedin_username: https://www.linkedin.com/in/ricardojdsg
 
 # User settings
+avatar: Ricardo-Verde.jpg
 username: Ricardo Dos Santos
 user_description: r.
-user_title: Ingeniero de Sistema, Magister en Computación, Candidato a Doctor en Ciencias Aplicadas
+user_title: Ingeniero de Sistema
+user_title1: Magister en Computación
+user_title2: Candidato a Doctor en Ciencias Aplicadas
 
+
+# Google-analytics
+google-analytics:
+  id: ""
 
 # Build settings
 markdown: kramdown
