@@ -3,6 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-permalink: /
+permalink: /home2/
 
 ---
+
+# Hello, Jekyll {#hello-jekyll}
+
+Check out these other pages:
+
+- [About](/about/)
+- [Contact](/contact/)
