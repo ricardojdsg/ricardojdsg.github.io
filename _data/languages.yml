@@ -1,0 +1,11 @@
+language: ["en", "es"]
+
+en:
+  label: English
+  icon: 🇺🇸
+es:
+  label: Español
+  icon: 🇻🇪
+pt:
+  label: Português
+  icon: 🇵🇹

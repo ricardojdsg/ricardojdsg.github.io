@@ -1,8 +1,15 @@
-
 <footer class="footer">
-    <p>&copy; {{site.username}}</p>
-    
+    <p><a href="/">&copy; {{site.username}}</a>,
+        <em>{{ site.data.translations['viewIn'][page.lang] }}:</em>
+        {% for lang in site.data.languages['language'] %}
+            {% if lang!=page.lang %}
+                <em><a href="{{ page.ref[lang] | prepend: site.baseurl }}">{{ site.data.languages[lang].icon }} {{ site.data.languages[lang].label }}</a></em>
+            {% endif %}
+        {% endfor %}
+    </p>
+    </ul>
 </footer>
+
 <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="{{ "/assets/js/app.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>

@@ -5,9 +5,9 @@
           <img class="avatar" src="{{ site.baseurl }}/assets/images/{{site.avatar}}" alt="profile picture" />
           {% endif %}
           <span class="site-title">{{site.username}}</span>
-          <span class="site-description">{{site.user_title}}</span>
-          <span class="site-description">{{site.user_title1}}</span>
-          <span class="site-description">{{site.user_title2}}</span>
+          <span class="site-description">{{site.data.about.degree_1[page.lang] }}</span>
+          <span class="site-description">{{site.data.about.degree_2[page.lang] }}</span>
+          <span class="site-description">{{site.data.about.degree_3[page.lang] }}</span>
         </h1>
         <div class="header-icons">
           <a aria-label="Send email" href="{{site.email}}"><i class="icon fa fa-envelope"></i></a>
@@ -15,10 +15,12 @@
           <a aria-label="My Twitter" target="_blank" href="{{site.twitter_username}}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
           <a aria-label="My Github" target="_blank" href="{{site.github_username}}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
         </div>
-        <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#projects" data-scroll>Projects</a>
-        </div>
+        {% include navigation_h.html %}
+        </br>
+        </br>
+        </br>
     </div>
+    <!--
     <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    --> 
   </div>

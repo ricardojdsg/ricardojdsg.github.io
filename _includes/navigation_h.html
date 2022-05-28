@@ -9,10 +9,8 @@
 </nav>
 -->
 
-<nav>
-    <ul>
-        {% for menu in site.t[page.lang] %}
-            <li><a href="{{ menu.link }}">{{ menu.name }}</a></li>
-        {% endfor %}
-    </ul>
-</nav>
+<div class="header-links">
+    {% for menu in site.data.navigation[page.lang] %}
+        <a class="link" href="{{ menu[1].link }}" ><i class="icon fa {{ menu[1].class }}" aria-hidden="true"></i> {{ menu[1].name }}</a>
+    {% endfor %}
+</div>

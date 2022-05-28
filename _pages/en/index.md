@@ -3,9 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-permalink: /
-lang: es
+permalink: /en/
+lang: en
 ref:
-   en: /en/
+   es: /es/
+
 
 ---

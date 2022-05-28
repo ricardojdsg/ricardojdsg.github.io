@@ -1,6 +1,31 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
+en:
+  home:
+    name: Home
+    link: /en/
+    class: fa-home 
+  about:
+    name: "About Me"
+    link: /en/about/
+    class: fa-id-card
+#  projects:
+#    name: Projects
+#    link: /en/projects/  
+#  blog:
+#    name: Blog
+#    link: /en/blog/
+
+es:
+  home:
+    name: Principal
+    link: /es/
+    class: fa-home 
+  about:
+    name: "Sobre Mi"
+    link: /es/sobre_mi/
+    class: fa-id-card
+#  projects:
+#    name: Proyectos
+#    link: /es/proyectos/  
+#  blog:
+#    name: Blog
+#    link: /es/blog/
