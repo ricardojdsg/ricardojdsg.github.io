@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /es/sobre_mi/
+permalink: /es/sobre_mí/
 lang: es
 ref:
    en: /en/about/

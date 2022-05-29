@@ -20,8 +20,8 @@ es:
     link: /es/
     class: fa-home 
   about:
-    name: "Sobre Mi"
-    link: /es/sobre_mi/
+    name: "Sobre Mí"
+    link: /es/sobre_mí/
     class: fa-id-card
 #  projects:
 #    name: Proyectos
