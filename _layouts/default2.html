@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+<body>    
+    <main class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                Profile
+                {{ content }}
+            </div>
+            <div class="others-container">
+                Other
+                {{ content }}
+            </div>
+        </div>
+        
+        <div class="main-wrapper">
+            main
+            {{ content }}
+        </div>
+    </main>
+
+    {% include footer.html %}
+</body>
+</html>
+

@@ -29,7 +29,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: https://twitter.com/ricardojdsg
 github_username:  https://github.com/ricardojdsg
 linkedin_username: https://www.linkedin.com/in/ricardojdsg
+orcid_username: https://orcid.org/0000-0001-8752-8550
 youtube_username: https://youtube.com/c/RicardoDosSantosG
+kaggle_username: https://www.kaggle.com/ricardojdsg
 
 # User settings
 avatar: Ricardo-Verde.jpg
