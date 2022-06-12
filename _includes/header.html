@@ -5,9 +5,9 @@
           <img class="avatar" src="{{ site.baseurl }}/assets/images/{{site.avatar}}" alt="profile picture" />
           {% endif %}
           <span class="site-title">{{site.username}}</span>
-          <span class="site-description">{{site.data.about.degree_1[page.lang] }}</span>
-          <span class="site-description">{{site.data.about.degree_2[page.lang] }}</span>
-          <span class="site-description">{{site.data.about.degree_3[page.lang] }}</span>
+          <span class="site-description"><i class="icon fa fa-graduation-cap" aria-hidden="true"></i> {{site.data.about.degree_1[page.lang] }}</span>
+          <span class="site-description"><i class="icon fa fa-graduation-cap" aria-hidden="true"></i> {{site.data.about.degree_2[page.lang] }}</span>
+          <span class="site-description"><i class="icon fa fa-graduation-cap" aria-hidden="true"></i> {{site.data.about.degree_3[page.lang] }}</span>
         </h1>
         <div class="header-icons">
           <a aria-label="My Linkedin" target="_blank" href="{{site.linkedin_username}}"><i class="icon fa fa-brands fa-linkedin" aria-hidden="true" style="--fa-animation-duration: 0.5s;"></i></a>
