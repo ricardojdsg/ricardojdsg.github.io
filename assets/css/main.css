@@ -15,4 +15,4 @@ main.wrapper{display:grid;grid-template-columns:repeat(10, 1fr);background:#1a22
 .others-container a{text-decoration:none;margin:0;color:#fff} 
 .others-container a:active,.others-container a:hover{color:#4b5664}
 
-.main-wrapper{grid-column:span 7;background:#fff;padding:60px;text-align:justify;}
+.main-wrapper{grid-column:span 7;background:#fff;padding:60px;text-align:left;}
